@@ -190,10 +190,29 @@
     <section id="contact"><!-- Início contact -->
         Imagem
 
-        <input type="text"><!--Nome-->
-        email
-        assunto
-        mensagem
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <form>
+                        <label for="fname">Nome:</label><br><!--First Name= fname (primeiro nome)-->
+                        <input type="text" name="fname"><br>
+            
+                        <label for="lname">Sobrenome:</label><br><!--Last Name= lname (segundo nome)-->
+                        <input type="text" name="lname"><br>
+            
+                        <label for="email">E-mail:</label><br><!--Preenchimento com email-->
+                        <input type="text" name="email"><br>
+            
+                        <label for="subject">Assunto:</label><br>
+                        <textarea name="
+                        Subject" id="subject" cols="30" rows="1"></textarea><br><!--caixa de texto para assunto-->
+            
+                        <label for="messege">Mensagem:</label><br>
+                        <textarea name="messege" id="messege" cols="30" rows="10"></textarea><br><!--caixa de texto para mensagem-->
+                    </form>
+                </div>
+            </div>
+        </div>
 
         telefone
         endereço
