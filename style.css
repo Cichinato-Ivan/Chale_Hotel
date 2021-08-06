@@ -50,12 +50,18 @@ header div img {
 =================================*/
 #story{
     background-color: #F0FFFF;
+    padding-top: 30px;
 }
 
-section #text{
-    column-count: 3;
-}
+
 
 #text p{
     width: 100px;
+    padding: 15px;
+}
+
+/*Styling contact
+=================================*/
+#contact{
+    padding-top: 30px;
 }
