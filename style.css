@@ -3,6 +3,15 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: grey;
+}
 
 /*Styling Header
 =================================*/
@@ -64,4 +73,26 @@ header div img {
 =================================*/
 #contact{
     padding-top: 30px;
+}
+
+#contact p {
+    margin-top: 30px;
+}
+
+#contact form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/*Styling footer
+=================================*/
+
+footer #main-footer a{
+    padding: 20px;
+}
+
+footer #develop{
+    padding: 30px;
 }
